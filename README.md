@@ -1,48 +1,48 @@
-# ANÁLISIS DE DATOS DE PRODUCTOS MARINOS CONGELADOS 
+# ANALYSIS OF DATA ON FROZEN MARINE PRODUCTS
 
--Proyecto realizado en deepnote pero si gusta puede trabajarlo en su jupyter , o visual studio o colab.
+-Project made in deepnote but if you like you can work on it in your jupyter, or visual studio or collab.
 
-## Tabla de Contenidos
+## Table of Contents
 - [JUPYTER]
-- [Instalación](#instalación)
-- [COLAB]
-- [Uso](#uso)
-- [Contribución](#contribución)
+- [Installation](#installation)
+- [COLLAB]
+- [Use](#use)
+- [Contribution](#contribution)
 
 ## JUPYTER
-## Instalación
+## Facility
 
-- En LINUX , usando terminal (UBUNTU)
-- Clonar el proyecto con git clone (pagina del proyecto).
-- Crear un entorno virtual (python -m venv env) 
-- Instalar las librerias del requirements.txt (las que use en el proyecto) 
+- In LINUX, using terminal (UBUNTU)
+- Clone the project with git clone (project page).
+- Create a virtual environment (python -m venv env)
+- Install the libraries of the requirements.txt (the ones used in the project)
 {import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns} , dentro del entorno virtual creado
-- Instalar dentro del entorno virtual el jupyter (pip install jupyter)
-- Escribir el comando jupyter notebook para poder entrar al proyecto 
+import seaborn as sns} , inside the created virtual environment
+- Install the jupyter inside the virtual environment (pip install jupyter)
+- Write the jupyter notebook command to be able to enter the project
 
-## COLAB
+## COLLAB
 
-- Crear nuevo proyecto en colab
-- Escribir el codigó from google.colab import files
-- Utilizar el siguiente comando para subir el archivo a colab
-#Cargar datos a colab
+- Create new collaborative project
+- Write the code from google.colab import files
+- Use the following command to upload the file to colab
+#Load data to colab
 load = files.upload()
 
-- Importar librerias (pandas , numpy , matplotlib , seaborn)
+- Import libraries (pandas, numpy, matplotlib, seaborn)
 
-# OJO: CUANDO CIERRA EL COLAB TIENE QUE VOLVER A SUBIR EL ARCHIVO PARA QUE RECONOZCAN LOS DATOS LOS COMANDOS ESTABLECIDOS.
+# NOTE: WHEN THE COLLAB CLOSES, YOU HAVE TO UPLOAD THE FILE AGAIN SO THAT THE DATA IS RECOGNIZED BY THE ESTABLISHED COMMANDS.
 
-- Otra forma mas simple seria subir el archivo en el lado izquierdo hay 4 botones ( 3 líneas , lupa , {x} y una carpeta) click en el botón carpeta, saldra Archivos y click en subir archivo (boton de una hoja con flecha mirando arriba)  , busca proyecto donde descargo
+- Another simpler way would be to upload the file on the left side there are 4 buttons (3 lines, magnifying glass, {x} and a folder) click on the folder button, Files will appear and click on upload file (button of a sheet with an arrow looking above), look for a project where I download
 
-- Importar librerias (pandas , numpy , matplotlib , seaborn)
+- Import libraries (pandas, numpy, matplotlib, seaborn)
 
-## Uso
+## Use
 
-Es un pequeño proyecto que nos permitirar ver una compración con los analisis registrados de PRODUCTOS MARINOS CONGELADOS.
+It is a small project that will allow us to see a purchase with the registered analysis of FROZEN SEA PRODUCTS.
 
-## Contribución
+## Contribution
 
-Podriamos mejorar el proyecto realizando mas analisis de datos como que datos aumentar, que debemos analizar y comparar.
+We could improve the project by doing more data analysis such as what data to increase, what we should analyze and compare.
